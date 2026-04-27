@@ -21,6 +21,6 @@ The rule-based system will still work without the API key, but the LLM-based sys
 
 1. Get your own API key (Google Gemini API key used in this project).
 2. Create a folder named .stremlit and  a new file named secret.toml. 
-3. Store your API key inside that file using GEMINI_KEY = "actul_key"
+3. Store your API key inside that file using GEMINI_KEY = "actual_key"
 
 

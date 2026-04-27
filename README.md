@@ -23,4 +23,22 @@ The rule-based system will still work without the API key, but the LLM-based sys
 2. Create a folder named .stremlit and  a new file named secret.toml. 
 3. Store your API key inside that file using GEMINI_KEY = "actual_key"
 
+## Containerization
 
+This project includes a Dockerfile so the application can be run inside a Docker container.
+
+### Run with Docker
+
+Build the image:
+
+docker build -t phishing-detection-app .
+
+Run the container:
+
+docker run -p 8501:8501 phishing-detection-app
+
+Then open:
+
+http://localhost:8501
+
+Note: The LLM-based system still requires a personal Gemini API key, which is not included in this repository for security reasons.

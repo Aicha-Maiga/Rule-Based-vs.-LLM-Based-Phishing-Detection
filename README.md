@@ -15,6 +15,7 @@ The goal is to evaluate both classification performance (accuracy, precision, re
 - 30 email samples (phishing and legitimate)
 - Used for controlled evaluation
 
+# Set Up
 To run these codes, you will need an API key for the LLM-based system. For security reasons, the API key is not included in this repository.
 The rule-based system will still work without the API key, but the LLM-based system requires the API key to run.
 

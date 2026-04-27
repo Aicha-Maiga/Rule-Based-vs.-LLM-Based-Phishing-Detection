@@ -12,8 +12,8 @@ The goal is to evaluate both classification performance (accuracy, precision, re
 - Output Interpretability Score (OIS)
 
 # Dataset
-- 30 email samples (phishing and legitimate)
-- Used for controlled evaluation
+The dataset is a publicly available dataset found on Kaggle: https://www.kaggle.com/datasets/subhajournal/phishingemails
+Use clean_csv.py to remove the first column 
 
 # Set Up
 To run these codes, you will need an API key for the LLM-based system. For security reasons, the API key is not included in this repository.
